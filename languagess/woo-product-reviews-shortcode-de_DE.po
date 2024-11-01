@@ -1,0 +1,984 @@
+# Translation of Plugins - ReviewShort - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - ReviewShort - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-09-28 05:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: de-DE\n"
+"Project-Id-Version: Plugins - ReviewShort - Stable (latest release)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-20 11:39+0000\n"
+"Last-Translator: Tobias B. Conrad\n"
+"Language-Team: Deutsch\n"
+"X-Loco-Version: 2.6.6; wp-6.3.1"
+
+#: admin/templates/builder-edit.php:612
+msgid "1 column only"
+msgstr "Nur 1 Spalte"
+
+#: admin/templates/builder-edit.php:536 admin/templates/builder-edit.php:576
+msgid "1 columns"
+msgstr "1 Spalte"
+
+#: admin/templates/builder-edit.php:535 admin/templates/builder-edit.php:575
+msgid "2 columns"
+msgstr "2 Spalten"
+
+#: admin/templates/builder-edit.php:534 admin/templates/builder-edit.php:574
+msgid "3 columns"
+msgstr "3 Spalten"
+
+#: admin/templates/builder-edit.php:533 admin/templates/builder-edit.php:573
+msgid "4 columns"
+msgstr "4 Spalten"
+
+#: admin/templates/builder-edit.php:532
+msgid "6 columns"
+msgstr "6 Spalten"
+
+#: includes/functions.php:245
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Start trial</a>"
+msgstr "<a href=\"%s\" target=\"_blank\">Testversion starten</a>"
+
+#: includes/functions.php:248
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Upgrade</a>"
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Lizenz kaufen und Entwicklung "
+"unterstützen</a>"
+
+#: admin/templates/builder-list.php:118
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/cpt.php:14
+msgid "Add New"
+msgstr "Neuen hinzufügen"
+
+#: includes/cpt.php:13
+msgid "Add New Review Shortcode"
+msgstr "Einen neuen Bewertungs Shortcode hinzufügen"
+
+#: admin/templates/builder-edit.php:44
+msgid "Add title"
+msgstr "Titel hinzufügen"
+
+#: admin/templates/builder-edit.php:213
+msgid "All"
+msgstr "Alle"
+
+#: admin/templates/help.php:159
+msgid "All parameters usage example"
+msgstr "Alle Parameter in Verwendung"
+
+#: admin/templates/builder-edit.php:122
+msgid "All products"
+msgstr "Alle Produkte"
+
+#: includes/cpt.php:12
+msgid "All Review Shortcodes"
+msgstr "Alle Bewertungs Shortcodes"
+
+#: admin/templates/builder-edit.php:347
+msgid "Avatar"
+msgstr "Avatar"
+
+#: templates/product-reviews-meta.php:19
+msgid "Average rating"
+msgstr "Durchschnittliche Bewertung"
+
+#: templates/product-reviews-meta.php:21
+msgid "based on"
+msgstr "basierend auf"
+
+#. Name of the plugin
+msgid "Builder for WooCommerce reviews shortcodes - ReviewShort"
+msgstr "Builder für WooCommerce-Bewertungs-Shortcodes - Reviewshort"
+
+#: admin/templates/builder-edit.php:329
+msgid ""
+"By default customer avatar will be displayed. You can hide picture, or set "
+"product thumbnail as a picture"
+msgstr ""
+"Standardmäßig wird der Kunde Avatar angezeigt. Du kannst das Bild ausblenden,"
+" oder das Produkt-Bild anzeigen lassen. (Besonders gut wenn deine Kunden "
+"kein Bild hinterlegt haben.)"
+
+#: admin/templates/builder-edit.php:443
+msgid ""
+"By default only customer reviews will be displayed, if you want to show "
+"reviews replies select Show from dropdown."
+msgstr ""
+"Standardmäßig werden nur die Kunden-Bewertungen angezeigt. Wenn du zu den "
+"Bewertungen auch die Antworten zeigen möchtest wähle \"Anzeigen\" im "
+"Dropdown-Menü aus."
+
+#: admin/templates/help.php:122
+msgid ""
+"By default only customer reviews will be displayed, if you want to show "
+"reviews replies use parameter <code>show_nested</code> with value <strong>"
+"yes</strong>"
+msgstr ""
+"Standardmäßig werden nur Kundenbewertungen angezeigt. Wenn du Antworten "
+"anzeigen möchtest, verwenden den Parameter <code> show_nested </code> mit "
+"dem Wert <strong> yes </strong>"
+
+#: admin/templates/builder-edit.php:237
+msgid ""
+"By default we show all reviews according to settings. If you want to limit "
+"reviews amount per reviewer or per product, you can use this settings. Set "
+"maximum limit amount for unique reviews/products. F.e. Reviewer: 2 - show "
+"not more than 2 last reviews for each reviewer. Product: 2 - show not more "
+"than 2 last reviews for each product. Reviewer per product: 2 - show not "
+"more than 2 last reviews from one reviewer for each product."
+msgstr ""
+"Standardmäßig werden alle Bewertungen, passend zu den Einstellungen, anzeigt."
+"</br>Wenn du das einschränken möchtest z.B. die Bewertungen pro Kunde oder "
+"pro Produkt, dann kannst du das hier tun.</br> \n"
+"Maximale Anzahl für einmalige Bewertungen/Produkte. z.B. \n"
+"</br>Kunde: 2 -> nicht mehr als 2 Bewertungen von jedem Kunden. \n"
+"</br>Produkt: 3 - nicht mehr als die 3 Bewertungen für jedes Produkt. \n"
+"</br>Kunden pro Produkt: 4 - nicht mehr als 4 Bewertungen von einem Kunden "
+"für jedes Produkt."
+
+#: admin/templates/builder-edit.php:285
+msgid ""
+"By default we show product title for each review, if you are showing only "
+"one product in current shortcode, you can hide it."
+msgstr ""
+"Standardmäßig werden Produkt-Titel über für jeder Bewertung angezeigt. \n"
+"</br>Wenn du nur Bewertungen von einem Produkt anzeigst kannst du ihn "
+"ausblenden."
+
+#: admin/functions.php:512
+msgid "Cheating, hah?"
+msgstr "Schummeln, hah?"
+
+#: admin/templates/more-plugins.php:18
+msgid ""
+"Check your schema.org ratings markup by visting \n"
+"<a href=\"https://search.google.com/test/rich-results\" rel=\"noopener\" "
+"target=\"_blank\">New google rich snippets tester</a> | \n"
+"<a href=\"https://search.google.com/structured-data/testing-tool/u/0/\" "
+"rel=\"noopener\" target=\"_blank\">current, soon disabled google rich "
+"snippets tester</a></br>\n"
+"Hint: All Warnings are okay and not needed to show the stars and rating "
+"details on google. This warnings only say optional data could be provided."
+"</br>\n"
+"Hint: Only one \"product\" element should be found, otherwise google does "
+"not know what markup to use. In each shortcode you can \"disable schema\"."
+"</br>Please disable all schemas and leave only one active.</br>\n"
+"Idea: Leave the schema with the most reviews enabled.\n"
+msgstr ""
+"Überprüfe dein schema.org-Bewertungs-Markup, indem du deine Seiten und "
+"Beiträge mit dem Bewertungs-Shortcode hier überprüfst:\n"
+"<a href=\"https://search.google.com/test/rich-results\" rel=\"noopener\" "
+"target=\"_blank\"> Neuer Google Rich Snippets-Tester </a> |\n"
+"<a href=\"https://search.google.com/structured-data/testing-tool/u/0/\" "
+"rel=\"noopener\" target=\"_blank\"> aktueller, bald deaktivierter Google "
+"Rich Snippets-Tester </a> </br>\n"
+"Hinweis: Alle Warnungen sind in Ordnung und werden nicht benötigt um die "
+"Sterne und Bewertungsdetails auf Google anzuzeigen. Diese Warnungen besagen "
+"nur, dass optionale Daten bereitgestellt werden könnten. </br>\n"
+"Hinweis: Es sollte nur ein \"Produkt\" -Element gefunden werden, andernfalls "
+"weiß Google nicht, welches Markup verwendet werden soll. In jedem Shortcode "
+"kannst du das \"Schema deaktivieren\". </br> Bitte deaktivieren alle Schemas "
+"und lasse pro Seite/Beitrag nur eines aktiv. </br>\n"
+"Idee: Lassen das Schema mit den meisten Bewertungen aktiviert."
+
+#: admin/templates/builder-edit.php:527 admin/templates/builder-edit.php:568 
+#: admin/templates/builder-edit.php:608
+msgid "Columns"
+msgstr "Spalten"
+
+#: admin/templates/builder-edit.php:429
+msgid "Comment link"
+msgstr "Produkt-Seite (springt zu den Kommentaren)"
+
+#: admin/functions.php:651
+msgid "Copied"
+msgstr "Kopiert"
+
+#: admin/templates/builder-list.php:85 admin/templates/builder-list.php:91 
+#: admin/templates/help.php:47 admin/templates/help.php:67 
+#: admin/templates/help.php:93 admin/templates/help.php:112 
+#: admin/templates/help.php:133 admin/templates/help.php:152 
+#: admin/templates/help.php:187 admin/templates/builder-edit.php:58 
+#: admin/templates/builder-edit.php:70
+msgid "Copied. Input into your content!"
+msgstr "Kopiert. Bitte in deinen Inhalt einfügen!"
+
+#: admin/functions.php:580 admin/templates/builder-list.php:84 
+#: admin/templates/builder-list.php:90 admin/templates/help.php:46 
+#: admin/templates/help.php:66 admin/templates/help.php:92 
+#: admin/templates/help.php:111 admin/templates/help.php:132 
+#: admin/templates/help.php:151 admin/templates/help.php:186 
+#: admin/templates/builder-edit.php:57 admin/templates/builder-edit.php:69
+msgid "Copy"
+msgstr "Kopieren"
+
+#: admin/templates/templating.php:42
+msgid "Copy template"
+msgstr "Vorlage kopieren"
+
+#: admin/functions.php:736
+msgid "Create new"
+msgstr "Neu erstellen"
+
+#: admin/templates/builder-edit.php:363
+msgid "cropped"
+msgstr "beschnitten!"
+
+#: admin/templates/help.php:32
+msgid "Default shortcode usage"
+msgstr "Standard-Bewertungs-Shortcode"
+
+#: admin/templates/builder-edit.php:660
+msgid "Delete"
+msgstr "Löschen"
+
+#: admin/templates/templating.php:52
+msgid "Delete template"
+msgstr "Vorlage löschen"
+
+#: admin/functions.php:701
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: admin/templates/builder-edit.php:519
+msgid "Desktop"
+msgstr "Desktop"
+
+#: admin/templates/builder-edit.php:186 admin/templates/builder-edit.php:507
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: admin/templates/help.php:138
+msgid "Disabled Structured Data shortcode usage"
+msgstr "Strukturierte Daten deaktivieren"
+
+#: admin/templates/help.php:179
+msgid "Do not show schema.org markup: "
+msgstr "Schema.org markup ausblenden: "
+
+#: admin/functions.php:598
+msgid "Duplicated"
+msgstr "Dupliziert"
+
+#: admin/templates/builder-list.php:67
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/cpt.php:16
+msgid "Edit Review Shortcode"
+msgstr "Bewertungs Shortcode bearbeiten"
+
+#: admin/templates/templating.php:48
+msgid "Edit template"
+msgstr "Vorlage bearbeiten"
+
+#: admin/templates/builder-edit.php:187 admin/templates/builder-edit.php:508
+msgid "Enable"
+msgstr "Aktivieren"
+
+#: admin/templates/builder-edit.php:174
+msgid "Enable/Disable schema"
+msgstr "Schema"
+
+#: admin/templates/help.php:40 admin/templates/help.php:60 
+#: admin/templates/help.php:86 admin/templates/help.php:105 
+#: admin/templates/help.php:126 admin/templates/help.php:145
+msgid "Example"
+msgstr "Beispiel"
+
+#: includes/cpt.php:23
+msgid "Featured Image"
+msgstr "Vorschaubild"
+
+#: includes/cpt.php:31
+msgid "Filter Review Shortcodes list"
+msgstr "Bewertungs-Shortcodes-Liste filtern"
+
+#: admin/templates/builder-edit.php:235
+msgid "Filter unique reviews"
+msgstr "Filter \"eindeutige\" Bewertungen"
+
+#: includes/cpt.php:35
+msgid "Generate Review Shortcodes"
+msgstr "Generiere Bewertungs-Shortcodes"
+
+#: admin/templates/builder-edit.php:362
+msgid "height"
+msgstr "Höhe"
+
+#: admin/templates/builder-edit.php:156
+msgid "here"
+msgstr "hier"
+
+#: admin/templates/builder-edit.php:201
+msgid ""
+"Here you can set up how many reviews should be displayed, by default it’s 5. "
+"Select custom number of reviews to display. Select All to show all reviews, "
+"or select Hide so No reviews just aggregate rating will be shown."
+msgstr ""
+"Hier kannst du einstellen wieviele Bewertungen angezeigt werden, der "
+"Standardwert ist 5.</br>Wähle \"Anzahl\" um einen eigenen Wert einzugeben."
+"</br>Wähle \"Alle\" um alle Bewertungen anzuzeigen.</br>Wähle \"Ausblenden\" "
+"um keine Bewertungen und nur die Summe der Bewertung anzuzeigen z.B. "
+"\"Durchschnittliche Bewertung: 5 basierend auf 7 Bewertungen\"."
+
+#: admin/templates/builder-edit.php:214 admin/templates/builder-edit.php:296 
+#: admin/templates/builder-edit.php:313 admin/templates/builder-edit.php:339 
+#: admin/templates/builder-edit.php:384 admin/templates/builder-edit.php:453
+msgid "Hide"
+msgstr "Ausblenden"
+
+#: admin/templates/templating.php:36
+msgid "Hide template"
+msgstr "Vorlage ausblenden"
+
+#: admin/functions.php:51 admin/functions.php:52
+msgid "How to Use"
+msgstr "Anleitung"
+
+#: includes/functions.php:163
+msgid "How to use"
+msgstr "Anleitung"
+
+#. Author URI of the plugin
+msgid "https://saleswonder.biz/"
+msgstr "https://profiles.wordpress.org/tobias_conrad/#content-plugins"
+
+#: admin/templates/builder-edit.php:418
+msgid ""
+"If product link or thumbnail link is enabled you can specify link type: to "
+"product page or to comment on product page. By default it would be product "
+"page."
+msgstr ""
+"Wenn das Produkt vom link oder thumbnail-link aktiviert ist, können Sie "
+"angeben, link Typ: Produkt-Seite oder einen Kommentar auf der Produktseite. "
+"Standardmäßig wäre es, Produkt Seite."
+
+#: admin/functions.php:526
+msgid ""
+"If schema is enabled \"Set reviews section title\" field is required to "
+"prevent error \"The review does not have a reviewed item with a name "
+"specified. A value for the name field is required.\" in Structured Data"
+msgstr ""
+"Wenn das Schema aktiviert ist, ist das \"Titel über der Bewertungssektion\"-"
+"Feld erforderlich, um zu verhindern, dass das Schema invalide wird."
+
+#: admin/templates/help.php:141
+msgid ""
+"If you are going to use more then one shortcode per page we recommend you to "
+"use structured data markup only for one, otherwise google get two reviews "
+"schemas. You can disable it by adding parameter <code>show_schema</code> "
+"with value <strong>no</strong>"
+msgstr ""
+"Wenn du mehr als einen Shortcode pro Seite verwenden möchtest, empfehlen wir,"
+" das strukturiertes Daten markup nur einmal zu verwenden. Andernfalls erhält "
+"Google zwei Schemas und das Schema wird ungültig. \n"
+"Deaktiviere es, indem du den Parameter <code> show_schema </code> mit dem "
+"Wert <strong> no </strong> hinzufügst."
+
+#: admin/templates/builder-edit.php:176
+msgid ""
+"If you are going to use more then one shortcode per page we recommend you to "
+"use structured data markup only for one, otherwise google get two reviews "
+"schemas. You can disable it by selecting Disable from dropdown."
+msgstr ""
+"Wenn du mehr als einen Shortcode pro Seite verwendest empfehlen wir dir das "
+"Schema nur für einen Shortcode zu aktivieren. Ansonsten bekommt Google zwei "
+"Bewertungen Schemas und es wird keines angezeigt! </br>Du kannst das Schema "
+"deaktivieren, indem du deaktivieren aus dem Dropdown-Menü auswählst."
+
+#: admin/templates/builder-edit.php:88
+msgid ""
+"If you enabled schema this field is required to prevent error \"The review "
+"does not have a reviewed item with a name specified. A value for the name "
+"field is required.\" in Structured Data"
+msgstr ""
+"Wenn Sie die Option-schema dieses Feld ist erforderlich, um zu verhindern, "
+"dass Fehler \"Die überprüfung hat nicht geprüft, Artikel mit einem "
+"angegebenen Namen. Ein Wert für das Feld name ist erforderlich.\" in "
+"Strukturierte Daten"
+
+#: admin/templates/help.php:71
+msgid ""
+"If you need to show separated amount of reviews rating add each product via "
+"single product short code."
+msgstr ""
+"Wenn du die Bewertungsanzahl einzeln benötigst, nutze je Produkt einen "
+"Shortcode."
+
+#: admin/templates/builder-edit.php:478
+#, php-format
+msgid ""
+"In Free version Multicolumn mode disabled. If you want more, please %s or %s."
+msgstr ""
+"In der kostenlosen Version ist der Mehrspaltenmodus deaktiviert. Wenn du "
+"mehr willst, bitte %s oder %s."
+
+#: admin/templates/builder-list.php:106
+#, php-format
+msgid ""
+"In Free version only one shortcode can be active. To get it work again click "
+"\"Make active\" button or %s to Premium to activate all shortcodes."
+msgstr ""
+"In der kostenlosen Version kann nur ein Shortcode aktiv sein. Um ihn wieder "
+"zu aktivieren, klicke auf \"Aktivieren\" oder auf %s in der Premium-Version, "
+"um alle Shortcodes zu aktivieren."
+
+#: admin/templates/builder-list.php:104
+#, php-format
+msgid ""
+"In Free version only one shortcode can be active. To get it work again click "
+"\"Make active\" button, %s or %s to activate all shortcodes."
+msgstr ""
+"In der kostenlosen Version kannst du ein Shortcode mit dem Builder "
+"generieren!</br>\n"
+"Um den aktiven Shortcode zu wechseln klicke \"Aktivieren\".\n"
+"</br>Um alle Shortcodes zu \"aktivieren\" - %s oder starte die %s."
+
+#: admin/templates/builder-list.php:27
+#, php-format
+msgid ""
+"In Free version you can create and use only one shortcode. If you want more, "
+"please %s or %s."
+msgstr ""
+"In der kostenlosen Version kannst du ein Shortcode mit dem Builder "
+"generieren. Wenn du den Shortcode selbst nach unserer Anleitung erstellst "
+"kannst du unbegrenzt viele benutzen. </br>Wenn du mehrere Shortcodes "
+"generieren und die Weiterentwicklung unterstützen möchtest, %s oder starte "
+"die %s."
+
+#: includes/cpt.php:27
+msgid "Insert into Review Shortcode"
+msgstr "In den Bewertungs Shortcode einfügen"
+
+#: admin/templates/builder-edit.php:258
+msgid "Maximum"
+msgstr "Maximal"
+
+#: admin/templates/builder-edit.php:600
+msgid "Mobile"
+msgstr "Mobil"
+
+#: admin/templates/more-plugins.php:33
+msgid "More great plugins"
+msgstr "Mehr Marketing-Automatisierungs-Plug-ins"
+
+#: admin/templates/builder-edit.php:470 admin/templates/builder-edit.php:499
+msgid "Multicolumn mode"
+msgstr "Mehrspalten Modus"
+
+#: admin/templates/help.php:52
+msgid "Multiple products shortcode usage"
+msgstr "Shortcode für mehrere Produkte"
+
+#: includes/cpt.php:15
+msgid "New Review Shortcode"
+msgstr "Neuer Bewertungs Shortcode"
+
+#: admin/templates/help.php:98
+msgid "No reviews just aggregate rating usage"
+msgstr ""
+"Keine Bewertungen sondern nur die aggregierte Bewertung werden angezeigt z.B."
+" Durchschnittliche Bewertung: 5 basierend auf 3 Bewertungen"
+
+#: admin/functions.php:622 admin/functions.php:633 admin/functions.php:682 
+#: admin/functions.php:692
+msgid "No such template"
+msgstr "Keine Vorlage vorhanden"
+
+#: admin/templates/builder-edit.php:363
+msgid "not cropped"
+msgstr "nicht beschnitten"
+
+#: admin/functions.php:589
+msgid "Not duplicated"
+msgstr "Nicht dupliziert"
+
+#: includes/cpt.php:21
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: includes/cpt.php:22
+msgid "Not found in Trash"
+msgstr "Nicht im Papierkorb gefunden"
+
+#: admin/templates/builder-edit.php:215
+msgid "Number"
+msgstr "Anzahl"
+
+#: admin/templates/help.php:79
+msgid "Number of reviews shortcode usage"
+msgstr "Anzahl der Bewertungen je Shortcode"
+
+#: admin/functions.php:29
+msgid "Opt-in to see account"
+msgstr "Opt-in um Konto zu sehen"
+
+#: admin/templates/builder-list.php:46 admin/templates/builder-list.php:173
+msgid "Order"
+msgstr "Name"
+
+#: includes/cpt.php:11
+msgid "Parent Review Shortcode:"
+msgstr "Übergeordneter Shortcode:"
+
+#: admin/templates/builder-edit.php:542 admin/templates/builder-edit.php:582 
+#: admin/templates/builder-edit.php:618
+msgid "Picture position"
+msgstr "Bildposition"
+
+#: admin/templates/more-plugins.php:48
+msgid ""
+"Please have a look at our other WP.org plugins too by visiting <a "
+"href=\"https://profiles.wordpress.org/tobias_conrad/#content-plugins\" "
+"target=\"_blank\">Show all plugins on WP.org</a>"
+msgstr ""
+"Diese Plugins könnten dich auch interessieren <a href=\"https://profiles."
+"wordpress.org/tobias_conrad/#content-plugins\" target=\"_blank\">Show all "
+"plugins from Tobias on WP.org</a>"
+
+#: includes/cpt.php:5
+msgctxt "Post Type General Name"
+msgid "Review Shortcodes"
+msgstr "Bewertungs Shortcodes"
+
+#: includes/cpt.php:6
+msgctxt "Post Type Singular Name"
+msgid "Review Shortcode"
+msgstr "Bewertungs Shortcode"
+
+#: admin/templates/builder-edit.php:666
+msgid "Preview"
+msgstr "Vorschau"
+
+#: admin/templates/builder-edit.php:249
+msgid "Product"
+msgstr "Pro Produkt"
+
+#: admin/templates/builder-edit.php:304
+msgid "Product link"
+msgstr "Link zum Produkt"
+
+#: admin/templates/builder-edit.php:428
+msgid "Product page"
+msgstr "Produkt-Seite (oben)"
+
+#: admin/templates/builder-edit.php:348
+msgid "Product thumbnail"
+msgstr "Produkt-Bild"
+
+#: admin/templates/builder-edit.php:672
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: admin/templates/help.php:56
+msgid ""
+"Rating of multiple products will be summed up and shown as total rating."
+msgstr ""
+"Die Bewertung mehrerer Produkte werden addiert und als eine Gesamt-Bewertung "
+"angezeigt."
+
+#: includes/cpt.php:25
+msgid "Remove featured image"
+msgstr "Vorschaubild entfernen"
+
+#: admin/templates/builder-edit.php:416
+msgid "Review link type"
+msgstr "Ziel hinter dem Link"
+
+#: includes/cpt.php:8 includes/cpt.php:34 admin/functions.php:116
+msgid "Review Shortcode"
+msgstr "Bewertungs Shortcode"
+
+#: includes/cpt.php:9
+msgid "Review Shortcode Archives"
+msgstr "Bewertungs Shortcode Archive"
+
+#: includes/cpt.php:10
+msgid "Review Shortcode Attributes"
+msgstr "Bewertungs Shortcode-Eigenschaften"
+
+#: includes/cpt.php:7
+msgid "Review Shortcodes"
+msgstr "Bewertungs Shortcodes"
+
+#: admin/templates/builder-edit.php:31
+msgid "Review Shortcodes Edit"
+msgstr "Bearbeite die Bewertungs-Shortcodes"
+
+#: admin/templates/builder-list.php:16
+msgid "Review Shortcodes List"
+msgstr "Bewertungs-Shortcodes-Liste"
+
+#: includes/cpt.php:29
+msgid "Review Shortcodes list"
+msgstr "Bewertungs Shortcodes Liste"
+
+#: includes/cpt.php:30
+msgid "Review Shortcodes list navigation"
+msgstr "Bewertungs Shortcodes navigation"
+
+#: admin/templates/builder-edit.php:248
+msgid "Reviewer"
+msgstr "Pro Kunde"
+
+#: admin/templates/builder-edit.php:250
+msgid "Reviewer per product"
+msgstr "Pro Kunden und pro Produkt"
+
+#: templates/product-reviews-meta.php:23
+msgid "reviews"
+msgstr "Bewertungen"
+
+#: admin/templates/templating.php:6
+msgid "Reviews shortcode templating"
+msgstr "Bewertungs-Shortcode-Formatvorlagen"
+
+#: admin/functions.php:40 admin/functions.php:41
+msgid "ReviewShort"
+msgstr "ReviewShort"
+
+#: admin/templates/help.php:4
+msgid "ReviewShort Tutorial"
+msgstr "ReviewShort Anleitung"
+
+#: admin/functions.php:554
+msgid "Saved"
+msgstr "Gespeichert"
+
+#: includes/cpt.php:20
+msgid "Search Review Shortcode"
+msgstr "Suche Bewertungs Shortcodes"
+
+#: admin/templates/builder-list.php:43 admin/templates/builder-list.php:170
+msgid "Select All"
+msgstr "Alle auswählen"
+
+#: admin/templates/builder-edit.php:106
+msgid "Select products"
+msgstr "Produktauswahl"
+
+#: admin/functions.php:568
+msgid "Select shortcode"
+msgstr "Wählen den Shortcode"
+
+#: admin/functions.php:612 admin/functions.php:672
+msgid "Select template"
+msgstr "Vorlage auswählen"
+
+#: includes/cpt.php:24
+msgid "Set featured image"
+msgstr "Vorschaubild festlegen"
+
+#: admin/templates/help.php:167
+msgid "Set one title for multiple products: "
+msgstr "Legen einen Titel für mehrere Produkte fest: "
+
+#: admin/templates/builder-edit.php:199
+msgid "Set reviews number"
+msgstr "Menge der Bewertungen"
+
+#: admin/templates/builder-edit.php:86
+msgid "Set reviews section title"
+msgstr "Titel über den Bewertungen"
+
+#: admin/templates/builder-list.php:47 admin/templates/builder-list.php:77 
+#: admin/templates/builder-list.php:174
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: admin/templates/help.php:22 admin/templates/builder-edit.php:33
+msgid "Shortcodes list"
+msgstr "Shortcodes-Liste"
+
+#: admin/templates/builder-edit.php:295 admin/templates/builder-edit.php:312 
+#: admin/templates/builder-edit.php:340 admin/templates/builder-edit.php:383 
+#: admin/templates/builder-edit.php:454
+msgid "Show"
+msgstr "Anzeigen"
+
+#: admin/templates/builder-edit.php:247
+msgid "Show all"
+msgstr "Alle anzeigen"
+
+#: admin/templates/help.php:171
+msgid "Show all product reviews: "
+msgstr "Zeige alle Bewertungen: "
+
+#: admin/templates/help.php:163
+msgid "Show multiple products reviews in one shortcode: "
+msgstr "Zeigen mehrere Produkte-Bewertungen in einem shortcode: "
+
+#: admin/templates/help.php:175
+msgid "Show nested reviews (reply, comments etc.): "
+msgstr ""
+"Zeigen Ineinander verschachtelte Bewertungen (Antworten, Kommentare etc.): "
+
+#: admin/templates/help.php:119
+msgid "Show reviews reply shortcode usage"
+msgstr "Zeige Antworten auf die Bewertungen"
+
+#: admin/templates/templating.php:34
+msgid "Show template"
+msgstr "Zeige Vorlage"
+
+#. Description of the plugin
+msgid ""
+"Show WooCommerce customer feedback anywhere with WooCommerce reviews "
+"shortcodes, beautifully and ..."
+msgstr ""
+"Zeige WooCommerce-Kunden-Bewertungen überall mit WooCommerce-Bewertungs-"
+"Shortcodes an und das wunderschön und ..."
+
+#: admin/templates/builder-edit.php:283
+msgid "Show/hide review item product title"
+msgstr "Produkt-Titel"
+
+#: admin/templates/builder-edit.php:327
+msgid "Show/Hide reviews picture"
+msgstr "Bild zur Bewertung"
+
+#: admin/templates/builder-edit.php:441
+msgid "Show/Hide reviews replies"
+msgstr "Antworten zu Bewertungen"
+
+#: admin/templates/builder-edit.php:548 admin/templates/builder-edit.php:588 
+#: admin/templates/builder-edit.php:624
+msgid "Side"
+msgstr "Seitlich"
+
+#: admin/templates/builder-edit.php:123
+msgid "Specified products"
+msgstr "Ausgewählte Produkte"
+
+#: includes/functions.php:158 includes/functions.php:160
+msgid "Start"
+msgstr "Starten"
+
+#: admin/templates/templating.php:10
+msgid ""
+"Structure of the reviews can be changed by copy files in the list below to "
+"your custom field, then this structure will be used by default"
+msgstr ""
+"Die Struktur der Bewertungen kann geändert werden, indem die Dateien in der "
+"Liste unten kopiert werden. Dann wird diese Struktur standardmäßig verwendet."
+
+#: admin/templates/templating.php:9
+msgid ""
+"Styles are taken from WooCommerce, so it looks the same as on the product "
+"details page."
+msgstr ""
+"Die Formatvorlagen werden von WooCommerce übernommen, damit sieht es gleich "
+"aus wie auf der Produktdetails-Seite."
+
+#: admin/templates/builder-edit.php:560
+msgid "Tablet"
+msgstr "Tablet"
+
+#: admin/functions.php:641
+msgid "Template already exists"
+msgstr "Vorlage existiert bereits"
+
+#: admin/functions.php:659
+msgid "Template could not be copied, check your folder write permission"
+msgstr ""
+"Vorlage konnte nicht kopiert werden, überprüfe die Schreibrechte des Ordners"
+
+#: admin/templates/more-plugins.php:13
+msgid "Testing"
+msgstr "Testen"
+
+#: admin/templates/help.php:36
+msgid "The only required parameter is <code>products_ids</code>"
+msgstr ""
+"Der einzig benötigte Parameter ist die Produkt-ID <code>products_ids</code>"
+
+#: admin/templates/builder-edit.php:375
+msgid "Thumbnail link"
+msgstr "Bild-Link"
+
+#: admin/templates/help.php:35
+msgid "To input your user reviews list on any site page use shortcode "
+msgstr ""
+"Um die Kunden-Bewertungen auf jeder beliebigen Seite der Website anzuzeigen "
+"verwenden den Shortcode "
+
+#. Author of the plugin
+msgid "Tobias Conrad"
+msgstr "Tobias Conrad"
+
+#: admin/templates/builder-edit.php:547 admin/templates/builder-edit.php:587 
+#: admin/templates/builder-edit.php:623
+msgid "Top"
+msgstr "Oben"
+
+#: admin/templates/builder-edit.php:674
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: includes/cpt.php:17
+msgid "Update Review Shortcode"
+msgstr "Bewertungs Shortcode aktualisieren"
+
+#: includes/cpt.php:28
+msgid "Uploaded to this Review Shortcode"
+msgstr "Hochgeladen zu diesem Bewertungs Shortcode"
+
+#: includes/cpt.php:26
+msgid "Use as featured image"
+msgstr "Als Vorschaubild verwenden"
+
+#: includes/cpt.php:18
+msgid "View Review Shortcode"
+msgstr "Bewertungs Shortcode ansehen"
+
+#: includes/cpt.php:19
+msgid "View Review Shortcodes"
+msgstr "Zeige Bewertungs Shortcodes"
+
+#: admin/templates/builder-edit.php:362
+msgid "width"
+msgstr "Breite"
+
+#: admin/templates/more-plugins.php:40
+msgid ""
+"With the “<a href=\"https://wordpress.org/plugins/more-better-reviews-for-"
+"woocommerce/\" target=\"_blank\">Get Better Reviews for WooCommerce</a>” "
+"plugin collecting your customer ratings for your products is automated and "
+"easier than ever before."
+msgstr ""
+"Mit dem Plugin \"<a href=\"https://wordpress.org/plugins/more-better-reviews-"
+"for-woocommerce/\" target=\"_blank\"> Holen Sie sich bessere Bewertungen für "
+"WooCommerce </a>\" sammeln Sie Ihre Kundenbewertungen denn Ihre Produkte "
+"sind automatisiert und einfacher als je zuvor. Wenn Sie die Testversion oder "
+"die Premium-Version von Get Better Reviews verwenden, wird das \"ReviewShort "
+"Plugin\" <strong> Premium-Version </ strong> <strong> kostenlos <strong> </ "
+"strong> aktiviert.\n"
+
+#: admin/templates/more-plugins.php:42
+msgid ""
+"With the “<a href=\"https://wordpress.org/plugins/more-better-reviews-for-"
+"woocommerce/\" target=\"_blank\">Get Better Reviews for WooCommerce</a>” "
+"plugin collecting your customer ratings for your products is automated and "
+"easier than ever before. When you use the trial or the premium version of "
+"Get Better Reviews you get the \"ReviewShort Plugin\" <strong>premium "
+"version</strong> activated <strong>for free</strong>."
+msgstr ""
+"Mit dem Plugin \"<a href=\"https://wordpress.org/plugins/more-better-reviews-"
+"for-woocommerce/\" target=\"_blank\"> Holen Sie sich bessere Bewertungen für "
+"WooCommerce </a>\" sammeln Sie Ihre Kundenbewertungen denn Ihre Produkte "
+"sind automatisiert und einfacher als je zuvor. Wenn Sie die Testversion oder "
+"die Premium-Version von Get Better Reviews verwenden, wird das \"ReviewShort "
+"Plugin\" <strong> Premium-Version </ strong> <strong> kostenlos <strong> </ "
+"strong> aktiviert.\n"
+
+#. 1. URL link.
+#: woo-product-reviews-shortcode.php:40
+#, php-format
+msgid ""
+"Woo Product Reviews Shortcode requires Woocommerce plugin to be installed "
+"and active. You can install %s here."
+msgstr ""
+"ReviewShort plugin benötigt das aktiviertes Woocommerce plugin. Hier kannst "
+"du es %s installieren."
+
+#: admin/templates/help.php:17
+msgid ""
+"You can copy one of our example below and add changes manually for your "
+"needs or use our Shortcode builder where you can create and save reusable "
+"reviews shortcodes."
+msgstr ""
+"Du kannst eins unserer Beispiele unten nutzen und ändern oder nutze unseren "
+"Shortcode-Generator, mit dem du shortcodes erstellen und speichern, "
+"wiederverwenden kannst."
+
+#: admin/templates/help.php:101
+msgid ""
+"You can hide reviews list and show only aggregate rating as average rating "
+"from all customers reviews. Use parameter <code>per_page</code> and set it "
+"to <strong>0</strong>"
+msgstr ""
+"Du kannst die Bewertungsliste ausblenden und nur die Gesamtbewertung als "
+"Durchschnittsbewertung aller Kundenbewertungen anzeigen. Verwende dazu den "
+"Parameter <code> per_page </code> und setze den Wert auf <strong> 0 </strong>"
+"."
+
+#: admin/templates/help.php:82
+msgid ""
+"You can set up how many reviews should be displayed, by default it’s 5. Use "
+"parameter <code>per_page</code> to change this value. If you want to show "
+"all reviews set it to <strong>all</strong>"
+msgstr ""
+"Du kannst festlegen, wie viele Bewertungen angezeigt werden. Standardmäßig "
+"sind dies 5. Verwende <code> per_page </code>, um diesen Wert zu ändern. "
+"Wenn du alle Bewertungen anzeigen möchtest, wähle <strong> all </strong>. "
+
+#: admin/templates/help.php:55
+msgid ""
+"You can use as many products as you want, just separate products IDs with "
+"comma. As additional parameter you can add <code>product_title</code> to use "
+"it for all products"
+msgstr ""
+"Du kannst beliebig viele Produkte verwenden, trenne die Produkt IDs einfach "
+"mit einem Komma.</br>\n"
+"Als zusätzlichen Parameter kannst du z.B. den <code>product_title</code> für "
+"den Bewertungs-Block angeben."
+
+#: admin/templates/builder-edit.php:109
+msgid ""
+"You can use as many products as you want. Rating of multiple products will "
+"be summed up and shown as total rating. If you need to show separated amount "
+"of reviews rating add each product via single product short code."
+msgstr ""
+"Du kannst so viele Produkte wie du möchtest auswählen. Bewertungen der "
+"Produkte werden addiert und die Summe der Bewertungen angezeigt. </br>Wenn "
+"du je Produkt die Anzahl anzeigen möchtest füge für jedes Produkt einen "
+"Bewertungs-Shortcodes ein."
+
+#: admin/templates/builder-edit.php:74
+msgid ""
+"You can use this shortcode if you are going to make changes manualy. If you "
+"delete this Shortcode reviews still will be shown."
+msgstr ""
+"Dieser Shortcode enthält alle Einstellungen. Du kannst diesen Shortcode "
+"händisch nachdem Einfügen ändern. Die Bewertungen werden auch nach dem "
+"Löschen der Einstellungen unten noch angezeigt werden."
+
+#: admin/templates/builder-edit.php:62
+msgid ""
+"You can use this shortcode if you do not want to add manual changes to "
+"shortcodes on your pages. If you make changes in settings changes will be "
+"applied on all pages at once. If you delete this Shortcode no reviews will "
+"be shown."
+msgstr ""
+"Nutze diesen Shortcode, wenn du keine manuellen Änderungen an Shortcodes auf "
+"deinen Seiten hinzufügen möchtest. Wenn du Änderungen an den Einstellungen "
+"vornimmst, werden Änderungen auf alle Seiten gleichzeitig angewendet. Wenn "
+"du diesen Shortcode mit den Einstellungen löschst, werden keine Bewertungen "
+"angezeigt!"
+
+#: admin/templates/builder-list.php:154
+msgid ""
+"You do not have any shortcode created. Start to build one by clicking "
+"\"Create new\""
+msgstr ""
+"Du hast noch keinen Shortcode erstellt. Beginnen einen zu Bauen, indem du "
+"auf \"Neu en hinzufügen\" klickst."
+
+#: admin/templates/builder-edit.php:157
+#, php-format
+msgid ""
+"You have no products in your shop. Please add some products %s and come back."
+msgstr ""
+"Du hast noch keine Produkte in deinem Shop. Bitte füge Produkte hier %s "
+"hinzu und kommen dann wieder hierher zurück."
